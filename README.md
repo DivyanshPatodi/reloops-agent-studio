@@ -1,112 +1,110 @@
-<div align="center">
+# Reloops
+### The Unified Creative Review & Approval Platform for Multi-Format Teams
 
-  <img src="./assets/reloops-hero-banner.jpg" alt="Reloops Hero Banner" width="100%" />
+**One workspace for Video, Images, PDFs, HTML5 Ads, Audio, 3D, and Live Web Creative.**
 
-  # Reloops
-  ### The Modern Open-Source Creative Review & AI Video Collaboration Platform
+[![GitHub Stars](https://img.shields.io/github/stars/Reloops-App/Reloops?style=flat-square&color=3B82F6)](https://github.com/Reloops-App/Reloops/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Next.js 15](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Storage: S3 / B2](https://img.shields.io/badge/Storage-S3_%2F_Backblaze_B2-EC5B2D?style=flat-square)](https://reloops.app)
 
-  [![GitHub Stars](https://img.shields.io/github/stars/Reloops-App/Reloops?style=flat-square&color=3B82F6)](https://github.com/Reloops-App/Reloops/stargazers)
-  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-  [![Next.js 15](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)](https://nextjs.org/)
-  [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
-  [![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=flat-square&logo=discord)](https://discord.gg/reloops)
-
-  <p align="center">
-    <b>Reloops</b> is an open-source, high-performance creative asset review, frame-accurate video markup, and AI video synthesis platform built for creative studios, video editors, and agency teams.
-  </p>
-
-  <p align="center">
-    <a href="https://reloops.app"><strong>Explore Website »</strong></a>
-    ·
-    <a href="#-quick-start"><strong>Quick Start</strong></a>
-    ·
-    <a href="#-developer-api--mcp-usage"><strong>API Docs</strong></a>
-    ·
-    <a href="https://github.com/Reloops-App/Reloops/issues"><strong>Report Issue</strong></a>
-  </p>
-
-</div>
+Reloops consolidates fragmented creative review stacks, cuts agency software spend by **30–60%**, and unifies every asset format, stacked revision, pinpoint comment, and client sign-off into one collaborative workspace.
 
 ---
 
-## ⚡ Visual Highlights & Studio Capabilities
+## 🛑 The Problem: Creative Tool Sprawl & Fragmented Reviews
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🎯 Frame-Accurate Video Review</h3>
-      <p align="center">Pinpoint visual feedback directly on 4K frames with SMPTE timecode rulers, bounding boxes, arrows, and threaded comment chains.</p>
-      <img src="./assets/reloops-video-player-review.jpg" alt="Video Review Player" width="100%"/>
-    </td>
-    <td width="50%">
-      <h3 align="center">🔄 Stacked Version Control & Diffing</h3>
-      <p align="center">Compare iterations side-by-side with interactive split-sliders. Maintain full revision lineage from <code>v1</code> rough cuts to final approval.</p>
-      <img src="./assets/reloops-version-stacking-diff.jpg" alt="Version Diffing" width="100%"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🤖 Multi-Asset AI Video Studio</h3>
-      <p align="center">Transform sequence keyframes (<code>1.png</code> ➔ <code>2.png</code> ➔ <code>3.png</code>) into continuous photorealistic flythrough videos with camera trajectory physics.</p>
-      <img src="./assets/reloops-ai-agent-studio.jpg" alt="AI Agent Studio" width="100%"/>
-    </td>
-    <td width="50%">
-      <h3 align="center">🔒 Frictionless Client Share Portals</h3>
-      <p align="center">Deliver password-protected, branded review rooms for external clients to approve cuts with zero sign-up friction.</p>
-      <img src="./assets/reloops-client-share-portal.jpg" alt="Client Share Portal" width="100%"/>
-    </td>
-  </tr>
-</table>
+Modern creative teams work across 6+ different asset formats every week, forcing them to juggle separate, expensive point solutions:
+
+| Asset Format | Legacy Point Solution | The Core Pain Point |
+|---|---|---|
+| **Video** | Frame.io / Vimeo Review | Expensive per-seat pricing; restricted to video only |
+| **PDFs & Pitch Decks** | Filestage / Adobe Acrobat | Disconnected from video, ad, and design assets |
+| **Images & Design** | GoVisually / InVision | No frame-accurate timeline or interactive HTML preview |
+| **HTML5 & Web Ads** | Markup.io / Pasted Screenshots | Cannot test live code, animations, or responsive viewports |
+| **Audio & Voiceovers** | Google Drive / Dropbox | No visual waveform scrubbing or timestamped feedback |
+| **3D & Spatial Walkthroughs** | Heavy Desktop Software | Zero client-friendly web review or interactive orbit |
+
+**The Result:** Client feedback is scattered across Slack messages, email threads, and multiple disconnected portals. Version control is lost, revisions stall, and agencies spend thousands of dollars each month on redundant SaaS subscriptions.
 
 ---
 
-## 🚀 Key Features
+## 💡 The Reloops Solution: One Consolidated Review Stack
 
-- **⏱️ 60fps Frame-Accurate Scrubbing**: Ultra-smooth playback engine with SMPTE timecode overlay and real-time thumbnail filmstrip.
-- **🎨 On-Screen Annotation Toolkit**: Draw arrows, highlight regions with bounding boxes, sketch freehand, and pin comments directly to video frames.
-- **📚 Workspace & Folder Hierarchy**: Granular multi-tenant asset organization with assigned review pickup queues (`needs_review`, `in_review`, `approved`).
-- **🔑 Bring Your Own Key (BYOK) Security**: Zero server-side key storage. AI provider keys (Higgsfield, Kling, Seedance) are securely isolated in the browser's local storage.
-- **⚡ Direct Presigned Cloud Ingestion**: High-speed chunked uploads (up to 5GB) straight to Backblaze B2 / Amazon S3 storage buckets.
-- **🤖 Developer API & MCP Integration**: Programmatically trigger reviews, query queues, or stack new revision assets via Antigravity, Claude, and n8n.
+Reloops replaces the entire fragmented review stack with **one unified, high-performance platform**:
+
+* **Cut Software Spend by 30–60%**: Eliminate 4 to 6 separate software bills into a single open-source, self-hostable, or cloud workspace.
+* **Consolidate Every Revision Loop**: Track rough cuts, revised PDF pitch decks, HTML5 ad banners, and 3D architectural models in the exact same project tree.
+* **Frictionless Client Sign-Off**: Send branded, password-protected review links where external clients can review, annotate, and approve any format with **zero login required**.
 
 ---
 
-## 🛠️ Tech Stack & System Architecture
+## 🎨 Multi-Format Creative Engine
 
-```mermaid
-flowchart LR
-    subgraph ClientLayer ["💻 Client Layer (Browser)"]
-        UI["Next.js 15 App Router"]
-        Canvas["Video Player & Canvas Compositor"]
-        BYOK["Local Vault (BYOK Key Store)"]
-    end
+Reloops provides native, purpose-built review tools for every creative asset type:
 
-    subgraph BackendLayer ["⚡ Backend & Edge Infrastructure"]
-        EdgeAPI["Edge API (api.reloops.app)"]
-        AuthDB[(PostgreSQL / Supabase Auth)]
-        B2Storage["Presigned Object Storage (B2 / S3)"]
-    end
+### 1. 🎬 Video & Motion (4K / 60fps)
+* **Frame-Accurate Timecode Scrubbing**: SMPTE timecode rulers (`00:01:24:12`), frame-stepping, and thumbnail scrubbing.
+* **On-Screen Canvas Drawing**: Pinpoint visual feedback with arrows, bounding boxes, freehand pen markup, and color badges.
+* **Side-by-Side Version Diffing**: Compare `v1` vs `v2` cuts with real-time interactive split-sliders.
 
-    subgraph AIEngine ["🤖 Creative AI & Review Agents"]
-        Higgsfield["Higgsfield / Kling / Seedance API"]
-        AgentMCP["MCP Model Context Protocol"]
-    end
+### 2. 🖼️ Images & Brand Identity (PNG, JPG, WEBP, SVG, PSD)
+* **Pixel-Level Precision Markup**: Place point markers and area boxes with color-coded feedback tags.
+* **High-Res Zoom & Pan**: Inspect ultra-high-resolution print, packaging, and digital branding assets up to 800% zoom.
+* **Visual Overlay Comparison**: Onion-skin and split-view comparison to catch subtle layout shifts between revisions.
 
-    UI --> EdgeAPI
-    EdgeAPI --> AuthDB
-    EdgeAPI --> B2Storage
-    Canvas --> UI
-    BYOK -.-> Higgsfield
-    EdgeAPI --> AgentMCP
-```
+### 3. 📄 Documents, Pitch Decks & PDFs
+* **Multi-Page Visual Navigation**: Continuous vertical scroll or grid page navigation for pitch decks, brand books, and client proposals.
+* **Text Highlight & Area Markup**: Highlight exact copy sentences for editorial changes and leave sticky notes on specific layouts.
+* **Vector-Sharp Rendering**: Crystal-clear PDF vector rasterization at any display scale.
+
+### 4. 🌐 Live Websites & HTML5 Rich Media Ads
+* **Interactive Live Previews**: Render live HTML5 banners, interactive Webflow pages, and animated landing pages directly in the review room.
+* **Responsive Breakpoint Switcher**: Toggle between Desktop, Tablet, and Mobile viewports (iPhone, iPad, 1080p).
+* **Click-Through & Animation Testing**: Verify CTA links, hover states, and CSS/JS animations in real time.
+
+### 5. 🎙️ Audio, Podcasts & Voiceovers (WAV, MP3, AAC)
+* **Visual Audio Waveform**: Full-fidelity waveform display with millisecond scrub navigation.
+* **Timestamped Sound Notes**: Anchor feedback to specific audio transients, voiceover lines, or background music cues.
+
+### 6. 🏢 3D Assets & Spatial Walkthroughs (GLTF / GLB / OBJ)
+* **Interactive 3D Orbit & Zoom**: Inspect 3D models from any angle in a full 360° web canvas.
+* **Spatial Annotation Pins**: Anchor comments directly onto 3D surfaces and geometric coordinates.
+
+---
+
+## 👥 Built for Your Team: Tailored Workflows by Industry
+
+### 🏢 Creative & Digital Marketing Agencies
+Manage dozens of client campaigns in one hub. Organize assets by *Client ➔ Workspace ➔ Project ➔ Folder*. Deliver white-labeled review rooms that make your agency look world-class.
+
+### 🎬 Video & Content Production Studios
+Replace costly Frame.io enterprise tiers. Ingest raw 4K footage and multi-gigabyte deliverables straight to cloud storage (S3/Backblaze B2) without server bottlenecks.
+
+### 🏷️ In-House Brand & Creative Operations Teams
+Centralize brand guidelines, quarterly campaign decks, product photography, and TV spot approvals. Keep marketing, legal, and executive stakeholders aligned in one structured queue.
+
+### 📈 Performance Creative & Ad Agencies
+Rapidly iterate on high-velocity paid social ads (TikTok, Meta, YouTube Shorts, HTML5 programmatic banners). Compare 10+ hook variations and copy iterations side-by-side.
+
+### 🏡 Real Estate Companies & Architectural Agencies
+Unify all listing assets: interactive 3D virtual walkthroughs, drone video flythroughs, floorplan PDFs, and architectural renders in a single client presentation room.
+
+---
+
+## ⚡ Core Platform Capabilities
+
+* **🔄 Stacked Version History**: Drag and drop a new iteration onto an existing asset; Reloops automatically stacks it into a clean version lineage (`v1` ➔ `v2` ➔ `v3`) while keeping past feedback and changelogs intact.
+* **📋 Structured Review Queues**: Filter and track assets across all client accounts by status (`Needs Review`, `In Review`, `Approved`).
+* **🔒 Password-Protected Client Portals**: Share branded review links with external clients for instant one-click approvals, with optional password protection and expiration dates.
+* **☁️ Direct Cloud Storage Ingestion**: High-speed chunked uploads (up to 5GB per asset) straight to Backblaze B2 / Amazon S3 storage buckets with zero server slowdowns.
+* **👥 Team & Role Permissions**: Granular controls for Agency Admins, Creative Editors, External Clients, and Guest Reviewers.
+* **🔌 Developer API & Webhooks**: Integrate with your existing agency tools, trigger Slack/Discord notifications, and automate review status updates.
 
 ---
 
 ## 🏁 Quick Start
-
-### Prerequisites
-- Node.js `18.18+` or `20+`
-- npm, pnpm, or yarn
 
 ### 1. Clone the repository
 ```bash
@@ -119,53 +117,20 @@ cd Reloops
 npm install
 ```
 
-### 3. Setup environment configuration
+### 3. Configure environment
 ```bash
 cp .env.example .env.local
 ```
 
-### 4. Start the development server
+### 4. Launch Reloops Studio
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to launch the studio.
-
----
-
-## 🔌 Developer API & MCP Usage
-
-Reloops provides a comprehensive REST API for automated reviews and generative video pipelines:
-
-```typescript
-import { ReloopsClient } from '@reloops/sdk';
-
-const reloops = new ReloopsClient({
-  apiKey: process.env.RELOOPS_API_KEY
-});
-
-// 1. Fetch pending review queue
-const pendingReviews = await reloops.reviews.listRequested();
-
-// 2. Stack a new iteration to an existing version chain
-const newVersion = await reloops.assets.uploadVersion({
-  parentAssetId: 'ast_9843a81f',
-  file: finalColorGradeBuffer,
-  status: 'needs_review',
-  comment: 'Version 2 with bridge archway push-in trajectory applied.'
-});
-
-console.log(`Uploaded revision stack: ${newVersion.versionNumber}`);
-```
-
----
-
-## 🤝 Contributing
-
-We welcome contributions from video editors, developers, and creative AI enthusiasts! Please see our [CONTRIBUTING.md](./CONTRIBUTING.md) for full setup and PR guidelines.
+Open `http://localhost:3000` to access your multi-format creative workspace.
 
 ---
 
 ## 📜 License
 
-Reloops is open-source software licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for details.
+Reloops is open-source software licensed under the **MIT License**. Free for personal, studio, and commercial use.
