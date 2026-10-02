@@ -49,7 +49,8 @@ Reloops provides native, purpose-built review tools for every creative asset typ
 * **On-Screen Canvas Drawing**: Pinpoint visual feedback with arrows, bounding boxes, freehand pen markup, and color badges.
 * **Side-by-Side Version Diffing**: Compare `v1` vs `v2` cuts with real-time interactive split-sliders.
 
-![Reloops Frame-Accurate Video Review & Annotation](./assets/reloops-video-player-actual.png)
+https://github.com/user-attachments/assets/af24457a-eea9-489e-a6df-5f89101953dc
+
 
 
 
