@@ -49,9 +49,8 @@ Reloops provides native, purpose-built review tools for every creative asset typ
 * **On-Screen Canvas Drawing**: Pinpoint visual feedback with arrows, bounding boxes, freehand pen markup, and color badges.
 * **Side-by-Side Version Diffing**: Compare `v1` vs `v2` cuts with real-time interactive split-sliders.
 
-<div align="center">
-  <video src="https://github.com/DivyanshPatodi/reloops-agent-studio/raw/main/assets/reloops-video-annotation-demo.mp4" controls="controls" width="100%"></video>
-</div>
+![Reloops Video Review Player](./assets/reloops-video-player-actual.png)
+
 
 
 ### 2. 🖼️ Images & Brand Identity (PNG, JPG, WEBP, SVG, PSD)
