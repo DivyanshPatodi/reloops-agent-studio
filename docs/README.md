@@ -1,4 +1,4 @@
-# 🎨 Reloops README Options & Presentation Hub
+# Reloops README Options
 
 This directory contains **3 distinct, production-ready README options** designed for the **[Reloops-App/Reloops](https://github.com/Reloops-App/Reloops)** repository. Each option targets a specific audience and narrative style while utilizing our high-resolution screenshot mockups and hero graphics.
 
