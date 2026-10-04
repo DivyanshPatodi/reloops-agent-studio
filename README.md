@@ -63,6 +63,9 @@ https://github.com/user-attachments/assets/af24457a-eea9-489e-a6df-5f89101953dc
 * **High-Res Zoom & Pan**: Inspect ultra-high-resolution print, packaging, and digital branding assets up to 1600% zoom.
 * **Visual Overlay Comparison**: Onion-skin and split-view comparison to catch subtle layout shifts between revisions.
 
+![Reloops Image Review & Brand Identity Markup](./assets/reloops-image-review.png)
+
+
 ### 3. 📄 Documents, Pitch Decks & PDFs
 * **Multi-Page Visual Navigation**: Continuous vertical scroll or grid page navigation for pitch decks, brand books, and client proposals.
 * **Text Highlight & Area Markup**: Highlight exact copy sentences for editorial changes and leave sticky notes on specific layouts.
