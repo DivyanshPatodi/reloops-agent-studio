@@ -71,6 +71,9 @@ https://github.com/user-attachments/assets/af24457a-eea9-489e-a6df-5f89101953dc
 * **Text Highlight & Area Markup**: Highlight exact copy sentences for editorial changes and leave sticky notes on specific layouts.
 * **Vector-Sharp Rendering**: Crystal-clear PDF vector rasterization at any display scale.
 
+![Reloops Document, Pitch Deck & PDF Review](./assets/reloops-pdf-review.png)
+
+
 ### 4. 🌐 Live Websites & HTML5 Rich Media Ads
 * **Interactive Live Previews**: Render live HTML5 banners, interactive Webflow pages, and animated landing pages directly in the review room.
 * **Responsive Breakpoint Switcher**: Toggle between Desktop, Tablet, and Mobile viewports (iPhone, iPad, 1080p).
