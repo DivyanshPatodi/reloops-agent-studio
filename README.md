@@ -127,7 +127,6 @@ Unify all listing assets: interactive 3D virtual walkthroughs, drone video flyth
 * **👥 Team & Role Permissions**: Granular controls for Agency Admins, Creative Editors, External Clients, and Guest Reviewers.
 * **🔌 Developer API & Webhooks**: Integrate with your existing agency tools, trigger Slack/Discord notifications, and automate review status updates.
 
-![Reloops Kanban Review Queues & Workspace Dashboard](./assets/reloops-kanban-dashboard.png)
 
 
 ---
