@@ -131,6 +131,53 @@ Unify all listing assets: interactive 3D virtual walkthroughs, drone video flyth
 
 ---
 
+## 🤖 Model Context Protocol (MCP) & AI Agent Workflows
+
+Reloops provides native support for the **Model Context Protocol (MCP)** via `@reloops/mcp-server`. This enables AI agents (such as **Anthropic Claude Desktop**, **Cursor**, **Google Antigravity**, and **n8n**) to autonomously interact with your creative assets, review queues, and revision pipelines.
+
+### ⚡ What AI Agents Can Do via Reloops MCP:
+* **Poll & Pick Up Assigned Reviews**: Query `needs_review` queues across workspaces and analyze assets in context.
+* **Leave Pinpoint & Timecoded Feedback**: Post frame-accurate comments on videos, text annotations on PDFs, or area markers on design assets.
+* **Stack Automated Iterations**: Upload AI-generated creative variations or color-graded cuts directly onto existing version stacks (`v1` ➔ `v2`).
+* **Manage Workspaces & Client Share Links**: Create project folders, fetch asset metadata, and generate password-protected client approval rooms.
+
+---
+
+### ⚙️ Quick MCP Setup
+
+Add the Reloops MCP configuration to your agent settings (e.g. `claude_desktop_config.json`, `mcp_config.json`, or Cursor Settings):
+
+```json
+{
+  "mcpServers": {
+    "reloops": {
+      "command": "npx",
+      "args": ["-y", "@reloops/mcp-server@beta"],
+      "env": {
+        "RELOOPS_API_KEY": "reloops_live_your_api_key_here"
+      }
+    }
+  }
+}
+```
+
+---
+
+### 🛠️ Core MCP Tools Reference
+
+| MCP Tool Name | Description |
+|---|---|
+| `reloops_list_assigned_reviews` | Fetch all creative assets currently awaiting review in your queue |
+| `reloops_get_asset` | Retrieve asset details, timecodes, high-res download URLs, and status |
+| `reloops_list_comments` | Read threaded discussions and pinpoint frame/page annotations |
+| `reloops_create_comment` | Post timestamped comments on video, PDF, or image coordinates |
+| `reloops_stack_asset_version` | Upload and stack a new revision onto an existing asset lineage |
+| `reloops_create_share` | Generate branded, password-protected client review rooms |
+| `reloops_get_project_tree` | Inspect complete workspace folder hierarchies and asset trees |
+
+---
+
+
 ## 🏁 Quick Start
 
 ### 1. Clone the repository
