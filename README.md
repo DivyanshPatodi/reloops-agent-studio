@@ -86,6 +86,9 @@ https://github.com/user-attachments/assets/af24457a-eea9-489e-a6df-5f89101953dc
 * **Visual Audio Waveform**: Full-fidelity waveform display with millisecond scrub navigation.
 * **Timestamped Sound Notes**: Anchor feedback to specific audio transients, voiceover lines, or background music cues.
 
+![Reloops Audio Waveform Review & Timecoded Feedback](./assets/reloops-audio-review.png)
+
+
 ### 6. 🏢 3D Assets & Spatial Walkthroughs (GLTF / GLB / OBJ)
 * **Interactive 3D Orbit & Zoom**: Inspect 3D models from any angle in a full 360° web canvas.
 * **Spatial Annotation Pins**: Anchor comments directly onto 3D surfaces and geometric coordinates.
