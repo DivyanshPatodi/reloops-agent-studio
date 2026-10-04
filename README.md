@@ -60,7 +60,7 @@ https://github.com/user-attachments/assets/af24457a-eea9-489e-a6df-5f89101953dc
 
 ### 2. 🖼️ Images & Brand Identity (PNG, JPG, WEBP, SVG, PSD)
 * **Pixel-Level Precision Markup**: Place point markers and area boxes with color-coded feedback tags.
-* **High-Res Zoom & Pan**: Inspect ultra-high-resolution print, packaging, and digital branding assets up to 800% zoom.
+* **High-Res Zoom & Pan**: Inspect ultra-high-resolution print, packaging, and digital branding assets up to 1600% zoom.
 * **Visual Overlay Comparison**: Onion-skin and split-view comparison to catch subtle layout shifts between revisions.
 
 ### 3. 📄 Documents, Pitch Decks & PDFs
