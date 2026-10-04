@@ -89,9 +89,12 @@ https://github.com/user-attachments/assets/af24457a-eea9-489e-a6df-5f89101953dc
 ![Reloops Audio Waveform Review & Timecoded Feedback](./assets/reloops-audio-review.png)
 
 
-### 6. 🏢 3D Assets & Spatial Walkthroughs (GLTF / GLB / OBJ)
-* **Interactive 3D Orbit & Zoom**: Inspect 3D models from any angle in a full 360° web canvas.
-* **Spatial Annotation Pins**: Anchor comments directly onto 3D surfaces and geometric coordinates.
+### 6. 🏢 360° Panoramas & Spatial Virtual Walkthroughs
+* **Interactive 360° Spherical Orbit**: Spin, pan, and inspect immersive 360° architectural spaces, virtual tours, and real estate stagings.
+* **Equirectangular Spatial Markup**: Leave pinpoint spatial comments directly on 360° spherical coordinates.
+
+![Reloops 360 Panorama & Spatial Walkthrough Review](./assets/reloops-360-panorama-review.png)
+
 
 ---
 
