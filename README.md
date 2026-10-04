@@ -120,12 +120,15 @@ Unify all listing assets: interactive 3D virtual walkthroughs, drone video flyth
 
 ## ⚡ Core Platform Capabilities
 
+* **📋 Structured Review Queues & Kanban Board**: Track assets across all client campaigns with live progress completion, status columns (`No status`, `Needs review`, `In Review`, `Approved`), and quick filters.
 * **🔄 Stacked Version History**: Drag and drop a new iteration onto an existing asset; Reloops automatically stacks it into a clean version lineage (`v1` ➔ `v2` ➔ `v3`) while keeping past feedback and changelogs intact.
-* **📋 Structured Review Queues**: Filter and track assets across all client accounts by status (`Needs Review`, `In Review`, `Approved`).
 * **🔒 Password-Protected Client Portals**: Share branded review links with external clients for instant one-click approvals, with optional password protection and expiration dates.
 * **☁️ Direct Cloud Storage Ingestion**: High-speed chunked uploads (up to 5GB per asset) straight to Backblaze B2 / Amazon S3 storage buckets with zero server slowdowns.
 * **👥 Team & Role Permissions**: Granular controls for Agency Admins, Creative Editors, External Clients, and Guest Reviewers.
 * **🔌 Developer API & Webhooks**: Integrate with your existing agency tools, trigger Slack/Discord notifications, and automate review status updates.
+
+![Reloops Kanban Review Queues & Workspace Dashboard](./assets/reloops-kanban-dashboard.png)
+
 
 ---
 
