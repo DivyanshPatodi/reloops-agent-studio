@@ -163,19 +163,7 @@ Add the Reloops MCP configuration to your agent settings (e.g. `claude_desktop_c
 
 ---
 
-### 🛠️ Core MCP Tools Reference
 
-| MCP Tool Name | Description |
-|---|---|
-| `reloops_list_assigned_reviews` | Fetch all creative assets currently awaiting review in your queue |
-| `reloops_get_asset` | Retrieve asset details, timecodes, high-res download URLs, and status |
-| `reloops_list_comments` | Read threaded discussions and pinpoint frame/page annotations |
-| `reloops_create_comment` | Post timestamped comments on video, PDF, or image coordinates |
-| `reloops_stack_asset_version` | Upload and stack a new revision onto an existing asset lineage |
-| `reloops_create_share` | Generate branded, password-protected client review rooms |
-| `reloops_get_project_tree` | Inspect complete workspace folder hierarchies and asset trees |
-
----
 
 
 ## 🏁 Quick Start
